@@ -1,4 +1,4 @@
--- Goal: Rank movies by rating by combining descriptive and performance data.
+-- Goal: List all the movies by their ratings in descending order.
 -- What I did: Joined `movies` with `boxoffice` on movie_id and sorted by rating (DESC).
 -- Business question: Which items (movies/products) are top-performing and should be prioritized/promoted?
 
