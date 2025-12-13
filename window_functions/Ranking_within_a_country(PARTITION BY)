@@ -1,0 +1,12 @@
+WITH user_rev AS (
+  SELECT country, user_id, SUM(revenue) AS total_revenue
+  FROM sales
+  GROUP BY country, user_id
+)
+SELECT
+  country,
+  user_id,
+  total_revenue,
+  RANK() OVER (PARTITION BY country ORDER BY total_revenue DESC) AS rnk_in_country
+FROM user_rev
+ORDER BY country, rnk_in_country;
