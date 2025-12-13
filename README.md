@@ -13,7 +13,7 @@ focused on data and product analytics.
 ### Purpose:
 - Practice SQL syntax
 - Learn how SQL answers business questions
-- Prepare for junior data / product analyst interviews
+- Prepare for product analyst interviews
 
 The solutions are based on learning materials, practice tasks,
 and guided examples.
