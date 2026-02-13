@@ -48,3 +48,11 @@ This is practice-oriented code, but structured like a mini-project:
 - reproducible dataset
 - clear tasks
 - clean solutions
+- ## Business Insights (Example)
+
+From this dataset we can observe:
+- Some customers generate significantly higher revenue.
+- There are unpaid orders.
+- Some products have no sales.
+- Category revenue distribution is uneven.
+
